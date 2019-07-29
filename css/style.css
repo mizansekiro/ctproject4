@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.header {
+    min-height: 100px;
+
+}
+
+
+.logo {
+    float: left;
+    
+}
+
+.logo img {
+    float: left;
+    margin-top: 15px;
+}
+
+.logo h1 {
+    float: right;
+    line-height: 100px;
+    font-size: 40px;
+    color: #0D94DB;
+}
+
+.menu {
+    float: right;
+    
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    line-height: 100px;
+    margin-right: 40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.menu ul li a:hover {
+    color: #0D94DB;
+}
+
+/*Header Section End*/
+
+/*Banner Section Start*/
+
+
+
+.banner {
+
+    min-height: 30px;
+    width: 100%;
+    /*    background-image: url(../images/bannar.png);*/
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner_contain {
+
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    width: 42%;
+
+
+}
+
+.banner_contain h1 {
+    font-size: 45px;
+
+}
+
+.banner_contain p {
+    font-size: 30px;
+    line-height: 2.2;
+}
+
+
+
+.banner_contain h2 {
+    padding: 20px 35px 20px 35px;
+    font-size: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-family: initial;
+    font-weight: bold;
+    /* width: 23%; */
+    margin-top: 12px;
+    display: -webkit-inline-box;
+}
+
+/*Banner Section End*/
+/*introduction Section Start*/
+
+.introduction {
+
+    padding: 20px 108px 20px 108px;
+    height: 150px;
+    text-align: center;
+    color: #333333;
+
+}
+
+.introduction h1 {
+    line-height: 3;
+}
+
+.introduction P {
+    line-height: 2;
+}
+
+/*introduction Section End*/
+
+.offer {
+    width: 100%;
+    min-height: 500px;
+    background: #306AE8;
+    color: white;
+}
+
+.offer_inner {
+    width: 85%;
+    display: block;
+    margin: 0px auto;
+
+}
+
+
+.offer h1 {
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.category {
+
+    width: 31%;
+    margin-right: 20px;
+    float: left;
+}
+
+.category:first-child {
+    margin-left: 0px;
+}
+
+.sub_category {
+    padding: 10px;
+    text-align: left;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.sub_category img {
+    height: 72px;
+    width: 72px;
+    float: left;
+    padding-right: 20px;
+}
+
+
+
+.sub_category h2 {
+
+    line-height: 0px;
+    padding-bottom: 30px;
+}
+
+.sub_category p {
+
+    line-height: 20px;
+}
+
+
+/*Offer Section END*/
+
+/*institution Section start*/
+
+.institution {
+    height: 600px;
+}
+
+.institution_inner {
+
+
+
+    min-height: 500px;
+    margin: 0 auto;
+    width: 85%;
+
+
+}
+
+.institution_header {
+    text-align: center;
+    color: #343434;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.institution_header h1 {
+    font-size: 40px;
+    line-height: 90px;
+    padding-top: 40px;
+}
+
+.institution_header p {
+    font-size: 20px;
+}
+
+
+.institution_image {
+    float: left;
+    margin-right: 20px;
+}
+
+.institution_image img {}
+
+.institution_contain {
+
+    width: 98%;
+    margin-top: 52px;
+}
+
+.institution_contain p {
+    line-height: 20px;
+}
+
+.institution_contain i {
+    color: #0D94DB;
+
+}
+
+.institution_contain_list {
+    margin-top: 30px;
+}
+
+.institution_contain_list p {
+
+    line-height: 40px;
+}
+
+/*institution Section End*/
+
+
+/*Price Section start*/
+
+
+.price {
+    width: 100%;
+    height: 185px;
+    color: white;
+    background-color: #222222;
+    text-align: center;
+    line-height: 185px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/*Price Section End*/
+
+/*Cources Section start*/
+
+
+.courses {
+    width: 100%;
+    color: white;
+    min-height: 920px;
+}
+
+.courses_inner {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.courses_inner h3 {
+    color: black;
+    font-size: 35px;
+    line-height: 185px;
+}
+
+.courses_catagory {}
+
+.sub_courses_catagory {
+    background-color: #0D94DB;
+    width: 256px;
+    margin: 10px 15px 10px 15px;
+    float: left;
+}
+
+.sub_courses_catagory:first-child {}
+
+.sub_courses_catagory img {
+    margin-left: 0px;
+    width: 100%;
+}
+
+.sub_courses_catagory p {
+    padding: 10px 0px 10px 0px;
+}
+
+
+/*Cources Section End*/
+
+.footer {
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+}
+
+
+.footer_inner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer_head {
+    text-align: center;
+    color: white;
+}
+
+.footer_head h1 {
+
+    line-height: 100px;
+
+    font-size: 35px;
+}
+
+.footer_inner_mailbox {
+    width: 45%;
+    margin-right: 20px;
+    /* padding: 4px 50px 4px 50px; */
+    float: left;
+    margin-left: 38px;
+}
+
+.footer_inner_mailbox input {
+    margin: 5px 5px 5px 0px;
+    width: 100%;
+    padding: 15px 10px 15px 10px;
+    border: 1px solid;
+}
+
+.massage {
+
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid;
+    font-family: monospace;
+
+}
+
+.footer_inner_mailbox button {
+    padding: 15px 40px 15px 40px;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    border: 1px solid;
+    background: #0A94DB;
+}
+
+.contact_us {
+    color: #BBBBBB;
+    margin: 5px 25px 25px 30px;
+    display: block;
+    width: 45%;
+    float: left;
+
+}
+
+.contact_us p {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.contact_us ul {
+    margin-top: 30px;
+}
+
+.contact_us ul li {
+    list-style: none;
+    line-height: 25px;
+}
+
+.contact_us ul li span i {
+    margin-right: 10px;
+}
+
+.footer_social {}
+
+.footer_social ul {}
+
+.footer_social ul li {
+    list-style: none;
+    float: left;
+}
+
+.footer_social ul li i {
+
+    margin: 10px 20px 10px 20px;
+    font-size: 30px;
+}
